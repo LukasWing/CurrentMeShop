@@ -1,0 +1,97 @@
+// HTTP requests for testing API.
+
+###
+# B5 creates a new customers and returns id
+# customers/
+# expected: A customerId corresponding to email address 
+POST http://localhost:3000/customers HTTP/1.1
+Content-Type: application/json
+
+{"email": "somesjsjssdsasdasasas@itu.dk", "firstname": "Johnny","lastname": "Depp"}
+
+###
+# B6 returns id from email of existing customer - number 6
+# customers/
+# expected: A customerId corresponding to emailaddress 
+POST http://localhost:3000/customers/id HTTP/1.1
+Content-Type: application/json
+
+{"email": "somesjsjssds@itu.dk"}
+
+
+###
+#B5 Create anonymous customer
+# customers/
+# expected: the lowest unused customerId for the anonymous customer
+POST http://localhost:3000/customers HTTP/1.1
+Content-Type: application/json
+
+
+### 
+# C7 Customers/{customerId}
+# Return the customer info and its basket content 
+
+GET http://localhost:3000/customers/3  HTTP/1.1
+Content-Type: application/json
+
+###
+# E8 Remove item from basket - number 8
+# expected: Item will get removed from basket with message: "Succesfully removed Item"
+# If customerId does not have basket or if itemId is not in the basket, an error message will be thrown. 
+# Run B8 before to add item and basket to customerId 3. 
+DELETE http://localhost:3000/customers/3/basket/5 HTTP/1.1
+content-type: application/json
+
+###
+# D9 Add a list of items to the basket
+# Expected: All items will be added to the basket with the message: "Items succesfully added"
+# If customerID does not have a basket, an error message will be thrown.
+PUT http://localhost:3000/customers/1/basket HTTP/1.1
+content-type: application/json
+
+{"items": [{"itemId": 12, "amount":  20},{"itemId": 5, "amount": 27}]}
+
+###
+# B8 Add new item to in basket with given amount
+POST http://localhost:3000/customers/0/basket/3 HTTP/1.1
+content-type: application/json
+
+{"amount": 2}
+
+###
+# D8 Add additional amount to basket
+PUT http://localhost:3000/customers/3/basket/5 HTTP/1.1
+content-type: application/json
+
+{"amount": 200}
+
+###
+
+# C4 GET specific product
+# expected: Information on product with id: 4 in JSON format
+GET http://localhost:3000/products/4 HTTP/1.1
+Content-Type: application/json
+
+###
+# C1 GET all categories
+# expected: A list of categories
+GET http://localhost:3000/categories HTTP/1.1
+Content-Type: application/json
+
+### 
+# C2 GET all products in the cateogory Bitcoin
+# expected: important info on  all (5) tshirt- with bitcoin currency
+GET http://localhost:3000/products/category/Bitcoin HTTP/1.1
+Content-Type: application/json
+
+### 
+# C2 GET all products in the cateogory top deal
+# expected: important info on all on t-shirts that has topdeal : true
+GET http://localhost:3000/products/category/true HTTP/1.1
+Content-Type: application/json
+
+###
+#C3 GET all products
+# expected: important info on all (16) t-shirts
+GET http://localhost:3000/products HTTP/1.1
+Content-Type: application/json

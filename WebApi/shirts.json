@@ -1,0 +1,146 @@
+[
+	{
+		"itemName": "dogeShirt",
+		"color": "Black",
+		"currency": "Bitcoin",
+		"image": "/Project1/Images/dogetshirt.jpg",
+		"price": 10,
+		"id": 4,
+		"topDeal": false
+	},
+	{
+		"itemName": "Bitconnect",
+		"color": "Black",
+		"currency": "Bitconnect",
+		"image": "/Project1/Images/bitconnect.jpg",
+		"price": 10,
+		"id": 5,
+		"topDeal": false
+	},
+	{
+		"itemName": "Shiba Shirt",
+		"color": "Black",
+		"currency": "Shiba",
+		"image": "/Project1/Images/shiba.webp",
+		"price": 10,
+		"id": 6,
+		"topDeal": false
+	},
+	{
+		"itemName": "Ethereum t-shirt",
+		"color": "Black",
+		"currency": "Ethereum",
+		"image": "/Project1/Images/EthereumShirt.jpg",
+		"price": 69,
+		"id": 7,
+		"topDeal": false
+	},
+	{
+		"itemName": "Bitcoin t-shirt",
+		"color": "Black",
+		"currency": "Bitcoin",
+		"image": "/Project1/Images/ItemImages/BitcoinMenBlack.webp",
+		"price": 10,
+		"id": 8,
+		"topDeal": false
+	},
+	{
+		"itemName": "Bitcoin Splashy",
+		"color": "Black",
+		"currency": "Bitcoin",
+		"image": "/Project1/Images/ItemImages/BitcoinMenBlack2.jpeg",
+		"price": 9,
+		"id": 9,
+		"topDeal": false
+	},
+	{
+		"itemName": "Bitcoin White",
+		"color": "White",
+		"currency": "Bitcoin",
+		"image": "/Project1/Images/ItemImages/BitcoinMenWhite.webp",
+		"price": 20,
+		"id": 10,
+		"topDeal": false
+	},
+	{
+		"itemName": "Terra Luna",
+		"color": "Blue",
+		"currency": "Terra Luna",
+		"image": "/Project1/Images/ItemImages/TerraLunaMenBlue.webp",
+		"price": 2,
+		"id": 11,
+		"topDeal": false
+	},
+	{
+		"itemName": "Terra Luna",
+		"color": "Black",
+		"currency": "Terra Luna",
+		"image": "/Project1/Images/ItemImages/TerraLunaMenBlack.jpg",
+		"price": 2,
+		"id": 12,
+		"topDeal": true
+	},
+	{
+		"itemName": "Solana t-shirt",
+		"color": "Black",
+		"currency": "Solana",
+		"image": "/Project1/Images/ItemImages/SolanaMenBlackVneck.jpg",
+		"price": 8,
+		"id": 13,
+		"topDeal": false
+	},
+	{
+		"itemName": "Solana Green",
+		"color": "Blue",
+		"currency": "Solana",
+		"image": "/Project1/Images/ItemImages/SolanaWomenGreenVneck.jpeg",
+		"price": 8,
+		"id": 14,
+		"topDeal": true
+	},
+	{
+		"itemName": "Ripple Black",
+		"color": "Black",
+		"currency": "Ripple",
+		"image": "/Project1/Images/ItemImages/RippleWomen.jpg",
+		"price": 10,
+		"id": 15,
+		"topDeal": false
+	},
+	{
+		"itemName": "Ripple Black",
+		"color": "Black",
+		"currency": "Ripple",
+		"image": "/Project1/Images/ItemImages/RippleMenBlack.jpg",
+		"price": 10,
+		"id": 16,
+		"topDeal": true
+	},
+	{
+		"itemName": "Ethereum Black",
+		"color": "Black",
+		"currency": "Ethereum",
+		"image": "/Project1/Images/ItemImages/EthereumWomenBlack.webp",
+		"price": 12,
+		"id": 17,
+		"topDeal": false
+	},
+	{
+		"itemName": "Ethereum White",
+		"color": "White",
+		"currency": "Ethereum",
+		"image": "/Project1/Images/ItemImages/EthereumWhiteWomen.webp",
+		"price": 12,
+		"id": 18,
+		"topDeal": false
+	},
+	{
+		"itemName": "Bitcoin White",
+		"color": "White",
+		"currency": "Bitcoin",
+		"image": "/Project1/Images/ItemImages/BitcoinWomenWhite.webp",
+		"price": 10,
+		"id": 19,
+		"topDeal": false
+	}
+]

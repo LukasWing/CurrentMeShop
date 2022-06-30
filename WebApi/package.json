@@ -1,0 +1,30 @@
+{
+  "moduleResolution": "node",
+  "name": "fw-project-group3",
+  "version": "1.0.0",
+  "description": "Project 2: WebAPI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.itu.dk/lukj/FW-Project-Group3.git"
+  },
+  "author": "Group 3 - Ryan Williams, Lukas Jensen, Jesper Bornerup, Jakob Albrechtsen, Jakob Tolstrup",
+  "license": "ISC",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.3",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

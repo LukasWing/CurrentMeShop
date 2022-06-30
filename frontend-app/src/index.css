@@ -1,0 +1,288 @@
+
+* {
+  font-family: "Montserrat", Poppins;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.golden_boi {
+  color: #ecb16a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn:enabled {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+
+.btn:disabled {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+.btn:disabled:hover {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+
+.btn-primary:enabled {
+  background-color: #172852;
+  color: rgb(255, 255, 255);
+}
+
+.btn-primary:enabled:hover {
+  background-color: #ecb16a;
+  color: white;
+}
+.btn-primary:disabled:hover {
+  background-color: #ecb16a;
+  color: white;
+}
+
+.btn-secondary:enabled {
+  color:#ffffff;
+  background-color: rgb(122, 122, 122);
+}
+
+.btn-secondary:enabled:hover {
+  background-color: #ecb16a;
+  color: white;
+}
+.btn-danger:enabled {
+  background-color: #eb5d6b;
+  color: white;
+}
+.btn-danger:enabled:hover {
+  background-color: #521721;
+  color: white;
+}
+
+
+/*
+    Component  1: Introduction Banner 
+*/
+
+.text_Mid {
+  width: 100%;
+  height: 100%;
+  font-weight: lighter;
+}
+
+.orange_Side {
+  width: 100%;
+  height: 100%;
+  background: #ecb16a;
+  position: relative;
+}
+
+.grey_Side {
+  width: 100%;
+  height: 100%;
+  background: #8c8c8c;
+  position: relative;
+}
+
+.HP1_L {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 15%;
+  margin-right: 10%;
+}
+
+.HP1_R {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 15%;
+  margin-right: 15%;
+}
+
+.webTitle {
+  width: 369px;
+  font-family: "Poppins", sans-serif;
+  height: 105px;
+  justify-items: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.titleOne {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 50px;
+  text-align: center;
+  color: #ecb16a;
+}
+
+.underLineOne {
+      width: 82.5%;
+      height: 10px;
+      background: #172852;
+      margin-left: 9%;
+}
+
+.centerthem {
+  object-position: center;
+}
+
+.site_description {
+  
+  text-align: center;
+  width: 243px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/*
+  Component  2: Advertisement Banner
+*/
+
+.titleTwo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ecb16a;
+  margin-top: 25%;
+}
+
+.underLineTwo {
+  width: 80%;
+  height: 10px;
+  background: #172852;
+  margin-left: 9%;
+}
+
+
+.Home_Two_line1 {
+  margin-left: 100px;
+  font-size: 28px;
+}
+
+.Home_Two_line2 {
+  margin-right: 100px;
+  font-size: 28px;
+}
+
+.Home_Two_line3 {
+  margin-left: 100px;
+  font-size: 28px;
+}
+
+/*
+  Component 3: 
+*/
+
+.titleThree_Container {
+  width: 80px;
+  margin-bottom: 40px;
+}
+
+.titleThree {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ecb16a;
+}
+
+.underLineThree {
+  width: 70px;
+  height: 10px;
+  background: #172852;
+}
+
+/*
+  Component 4: 
+*/
+
+/* .titleFour_Container {
+  width: 240px;
+  margin-bottom: 25px;
+} */
+
+.titleFour {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ecb16a;
+}
+
+.underLineFour {
+  width: 230px;
+  height: 10px;
+  align-items: center;
+  background: #172852;
+}
+
+/*
+  Grid Functionality
+*/
+
+.expand {
+  transform: scale(1, 1);
+  transition: 2s;
+}
+
+.expand:hover {
+  transform: scale(1.15, 1.15);
+  transition: 2s;
+}
+
+
+/* Productpage */
+
+.productPageImage {
+  width: 500px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.productForm {
+  width: 30vh;
+}
+
+.productButton {
+  width: 30vh;
+  margin-top: 3vh;
+}
+
+.marginTop {
+  margin-top: 15vh;
+}
+
+

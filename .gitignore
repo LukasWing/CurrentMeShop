@@ -1,0 +1,9 @@
+node_modules
+DS_Store
+Assignment.pdf
+WebApi/*.js
+WebApi/compiled
+/.idea/
+log.json
+/testAPI.ts
+frontend-app/build
