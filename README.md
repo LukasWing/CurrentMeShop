@@ -5,8 +5,7 @@ The project was a part of the ITU course *Frameworks and architectures for the w
 collaboration with jato, jvia, rywi and jskb.
 
 ## Website images
-![Mixed Images From Site]
-(http://cdn.thinglink.me/api/image/479353026285404161/1024/10/scaletowidth/0/0/1/1/false/true?wait=true)
+![Mixed Images From Site](http://cdn.thinglink.me/api/image/479353026285404161/1024/10/scaletowidth/0/0/1/1/false/true?wait=true)
 
 The webshop consists of a React frontend end a RESTAPI. For further information check the report.
 
