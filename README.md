@@ -6,7 +6,7 @@ collaboration with jato, jvia, rywi and jskb.
 
 ## Website images
 ![Mixed Images From Site]
-(https://github.com/LukasWing/CurrentMeShop/blob/main/Pics.png?raw=true)
+(https://raw.githubusercontent.com/LukasWing/CurrentMeShop/main/Pics.png)
 
 The webshop consists of a React frontend end a RESTAPI. For further information check the report.
 
